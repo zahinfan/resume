@@ -1,0 +1,142 @@
+*{margin: 0;
+	padding: 0;
+width: ;
+}
+
+body{background: #8080801a;color: #808080e6;
+
+}
+.container{width: 1000px;margin-left: auto;margin-right: auto;}
+.heading{text-align: center;padding-top: 50px;text-transform: uppercase;padding-bottom: 30px;}
+.heading h1{font-size: 25px;font-weight: unset;}
+
+/************* menu section ***********/
+nav{background: #392c2c;}
+.menu{overflow: hidden;margin: 0;padding: 0;}
+.menu li{float: left;padding: 15px 35px;list-style-type: none;text-transform: uppercase;font-size: 15px;}
+.menu li a{color: white;text-decoration: none;/*! border-bottom: 1px solid white; */}
+.menu li a:hover{border-bottom: 1px solid white;}
+
+
+/************* name section ***********/
+
+
+.Name-section{background: #686161e6;padding-bottom: 60px;}
+.Name-section h1{text-align: center;padding-top: 10px;color: whitesmoke;text-transform: capitalize;font-size: 25px;}
+.Name-section h3{text-align: center;color: whitesmoke;text-transform: capitalize;font-size: 20px;}
+
+
+/*********** About-me section ***********/
+
+.about-me-section{padding: 20px 0px;}
+.about-me{background-color: white;text-align: center;padding-bottom: 50px;box-shadow: 1px 5px 12px #1802024d;}
+.about-me img{width: 200px;border: 5px solid white;border-radius: 50%;transform: translateY(-60px);}
+.social{overflow: hidden;width: 400px;margin-right: auto;margin-left: auto;/*! margin-top: 0px; */display: block;}
+.social li{float: left;padding: 0px 35px 35px 35px;list-style-type: none;color: #808080e6;}
+.social li i{font-size: 22px;}
+.about-me p{width: 900px;color: #808080e6;font-size: 18px;margin: 10px auto 30px auto;}
+.about-me .cv{background-color: #0e93c8e6;color: white;text-decoration: none;text-transform: uppercase;font-size: 16px;padding: 10px 20px;display: inline-block;margin-right: 10px;}
+.about-me .contact{background-color: #0e93c8e6;color: white;text-decoration: none;text-transform: uppercase;font-size: 16px;padding: 10px 20px;display: inline-block;margin-left: 10px;}
+
+
+/*********** services section ***********/
+.services-section{}
+.service-menu{overflow: hidden;}
+.post{float: left;width: 25%;/*! border: 1px solid black; */box-sizing: border-box;padding: 10px;}
+.post .white{background: white;text-align: center;padding: 10px;box-shadow: 1px 5px 12px #1802024d;}
+.post .black{background: #0c0101;text-align: center;padding: 10px;color: #e1d9d9;box-shadow: 1px 5px 12px #1802024d;}
+.post i{font-size: 30px;padding: 20px;}
+.post span{}
+.post p{font-size: 15px;padding: 5px 3px 10px 3px;}
+.post h3{font-size: 20px;text-transform: capitalize;padding: 10px;}
+
+
+/*********** Portfolio Section ***********/
+.Portfolio-section{}
+.Portfolio-menu{overflow: hidden;margin-left: auto;margin-right: auto;width: 800px;/*! text-align: center; */}
+.Portfolio-menu li{list-style-type: none;float: left;padding: 30px;}
+.Portfolio-menu li a
+{text-decoration: none;text-transform: uppercase;color: #11111280;display: block;}
+.Portfolio-menu li a:hover{border-bottom: 2px solid #1515171a;}
+.portfolio-gallery{overflow: hidden;}
+.portfolio-gallery .img{width: 25%;float: right;padding: 10px;box-sizing: border-box;}
+.portfolio-gallery .img img{max-width: 100%;display: block;height: 200px;width: 300px;box-shadow: 1px 5px 12px #1802024d;}
+.portfolio-gallery span{/*! padding: 15px; */display: block;}
+.portfolio-gallery  h3{text-align: center;font-size: 20px;font-weight: normal;background: white;padding: 20px;box-shadow: 1px 5px 12px #1802024d;}
+
+
+/*********** Achievement Section ***********/
+
+
+.achievement-section{text-align: center;padding: 10px 0px;}
+.achievement-menu{overflow: hidden;text-align: center;padding: 10px 0px 0px;}
+.posts{width: 29%;float: left;overflow: hidden;background: white;box-sizing: border-box;display: block;/*! border: 2px solid black; */margin: 20px;box-shadow: 0px 3px 12px #4d3b5166;}
+.posts div{padding: 0px 0px 10px 0px;}
+.post-color{background: black;}
+.post-color span {font-size: 15px;text-align: center;text-transform: uppercase;}
+.post-color h3 {color: #f8f3f3e6;padding: 10px;text-align: center;}
+.posts i{font-size: 30px;padding: 40px 0px 10px 0px;}
+.posts p {text-align: center;text-transform: uppercase;padding: 30px 0px;font-size: 20px;}
+/*********** Work Section ***********/
+
+.Work-section{}
+.company{overflow: hidden;width: 190px;margin-right: auto; margin-left: auto;padding-right: 20px;}
+.company li{list-style-type: none;float: right;display: block;padding: 30px;}
+.company li i{font-size: 30px;}
+
+/*********** Pricing Section ***********/
+
+
+
+.pricing-section{}
+.pricing-table{overflow: hidden;}
+.price{float: left;width: 25%;box-sizing: border-box;padding: 10px;}
+.price div{background: white;text-align: center;padding: 30px;box-shadow: 0px 3px 12px #4d3b5166;}
+.price span{text-transform: uppercase;padding: 10px 0px;font-size: 20px;}
+.price h1{font-size: 40px;color: #291515cc;padding: 20px;}
+.price p{font-size: 17px;}
+.price a{padding: 10px 0px;display: inline-block;background: #0e93c8e6;color: white;border: 1px solid #b49e9e;text-decoration: none;padding: 15px;font-size: 20px;margin: 20px 0px;}
+
+
+
+/*********** interest Section ***********/
+.interest-section{}
+.interest-menu{background: white;overflow: hidden;box-shadow: 0px 3px 12px #4d3b5166;}
+.interest-menu p{padding: 40px 20px;font-size: 18px;}
+.Interests{overflow: hidden;/*! width: 800px; */}
+.Interests li{list-style: none;float: left;padding: 0px 30px 30px 30px;display: inline-block;margin: 0px 50px;text-align: center;}
+.Interests li i{font-size: 25px;color: #000000b3;}
+.Interests li p{padding: 0px;}
+/*********** contact Section ***********/
+
+
+
+.contact-section{}
+.contact-form1{width: 35%;float: left;/*! margin-right: 10px; */box-sizing: border-box;}
+.contact-form2{width: 62%;float: right;box-sizing: border-box;display: block;}
+.form1{background: black;text-align: center;padding: 10px;box-shadow: 0px 3px 12px #4d3b5166;}
+.form2{background: white;padding: 10px;box-shadow: 0px 3px 12px #4d3b5166;}
+.info{overflow: hidden;box-sizing: border-box;}
+.info li{list-style-type: none;padding: 18px;box-sizing: border-box;}
+.info li i{display: block;padding: 10px;box-sizing: border-box;font-size: 20px;color: #f6eeeee6;}
+.col-1{width: 100%;padding: 10px;box-sizing: border-box;text-align: center;}
+.contacts{overflow: hidden;box-sizing: border-box;display: block;/*! width: 100%; */}
+.contact-form2 form{}
+.col{width: 100%;padding: 10px;box-sizing: border-box;}
+.col input{width: 100%;padding: 10px 10px;box-sizing: border-box;/*! padding: 10px; */border: 0;border-bottom: 1px solid #bcb0b099;}
+.col select{ width: 100%;padding: 10px 10px;box-sizing: border-box;/*! padding: 10px; */border: 0;border-bottom: 1px solid #bcb0b099; }
+textarea{width: 100%;padding: 10px 10px;box-sizing: border-box;/*! padding: 10px; */border: 0;border-bottom: 1px solid #bcb0b099;}
+button{background: #0e93c8e6;padding: 10px 50px;text-transform: uppercase;color: white;font-size: 15px;border: 0;}
+button i{}
+
+
+
+
+
+
+
+
+
+
+
+
